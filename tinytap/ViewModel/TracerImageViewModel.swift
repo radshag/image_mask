@@ -57,6 +57,17 @@ class TracerImageViewModel: NSObject {
         shapeLayer!.fillColor = UIColor.clear.cgColor
         shapeLayer!.lineWidth = 4
     }
+    
+    private func createMask(with path: UIBezierPath) {
+        maskPath.append(path)
+        
+        let maskLayer = CAShapeLayer()
+        maskLayer.frame = tracerView.bounds
+        
+        maskLayer.fillRule = CAShapeLayerFillRule.evenOdd
+        maskLayer.path = maskPath.cgPath
+        tracerView.layer.mask = maskLayer
+    }
 }
 
 extension TracerImageViewModel: TracerImageViewDelegate {
@@ -85,17 +96,6 @@ extension TracerImageViewModel: TracerImageViewDelegate {
         content.append(imageView)
         shapeLayer = nil
         pointCollection.reset()
-    }
-    
-    func createMask(with path: UIBezierPath) {
-        maskPath.append(path)
-        
-        let maskLayer = CAShapeLayer()
-        maskLayer.frame = tracerView.bounds
-        
-        maskLayer.fillRule = CAShapeLayerFillRule.evenOdd
-        maskLayer.path = maskPath.cgPath
-        tracerView.layer.mask = maskLayer
     }
 }
 

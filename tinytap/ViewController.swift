@@ -35,15 +35,6 @@ class ViewController: UIViewController {
         
         present(imagePicker, animated: true)
     }
-    
-    func cut(hole: CGPath, inView v: UIView) {
-        
-        let s = CAShapeLayer()
-        s.path = hole
-        s.fillRule = CAShapeLayerFillRule.evenOdd
-        
-        v.layer.mask = s
-    }
 }
 
 extension ViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
