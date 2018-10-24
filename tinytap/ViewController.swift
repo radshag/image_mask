@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import UIView_draggable
 
 class ViewController: UIViewController {
     

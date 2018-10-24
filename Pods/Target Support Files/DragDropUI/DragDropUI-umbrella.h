@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "UIView+draggable.h"
+#import "DragDropUI.h"
 
-FOUNDATION_EXPORT double UIView_draggableVersionNumber;
-FOUNDATION_EXPORT const unsigned char UIView_draggableVersionString[];
+FOUNDATION_EXPORT double DragDropUIVersionNumber;
+FOUNDATION_EXPORT const unsigned char DragDropUIVersionString[];
 

@@ -6,5 +6,5 @@ target 'tinytap' do
   use_frameworks!
 
   # Pods for tinytap
-  pod 'UIView+draggable'
+  pod 'DragDropUI', '~> 1.0.4'
 end

@@ -1,12 +1,12 @@
 PODS:
-  - UIView+draggable (1.1.0)
+  - DragDropUI (1.0.4)
 
 DEPENDENCIES:
-  - UIView+draggable
+  - DragDropUI (~> 1.0.4)
 
 SPEC CHECKSUMS:
-  UIView+draggable: ddfbeb6bdfdeba63d9ccf32dc9be2b66cc589717
+  DragDropUI: a7fed6a7ccb995884f794b83e9e02e677d45543d
 
-PODFILE CHECKSUM: b4e12ae8f68c00ba690aee154f42c0fadd44c498
+PODFILE CHECKSUM: 2376678430ef29965f903c7900332b3cc032b240
 
 COCOAPODS: 1.4.0

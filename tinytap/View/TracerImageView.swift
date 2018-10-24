@@ -56,11 +56,3 @@ class TracerImageView: UIImageView {
         self.end(touches: touches)
     }
 }
-
-protocol TracerImageDraggableContent {
-    
-}
-
-class TracerImageViewDraggableContent: UIImageView, TracerImageDraggableContent {
-    
-}

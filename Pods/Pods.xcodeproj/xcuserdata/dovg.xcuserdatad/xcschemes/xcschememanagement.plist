@@ -4,14 +4,14 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-tinytap.xcscheme</key>
+		<key>DragDropUI.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>UIView+draggable.xcscheme</key>
+		<key>Pods-tinytap.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
