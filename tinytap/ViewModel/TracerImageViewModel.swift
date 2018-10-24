@@ -81,15 +81,16 @@ extension TracerImageViewModel: TracerImageViewDelegate {
         guard
             let path = pointCollection.path(),
             let bezierPath = pointCollection.bezierPath(),
-            let image = self.tracerView.toImage()
+            let image = self.tracerView.toImage(),
+            let croppedImage = image.crop(to: path)
             else {
                 return
         }
     
+        let rect = path.boundingBox
+        let size = croppedImage.size
         createMask(with: bezierPath)
-        let croppedImage = image.crop(to: path)
-        let imageView = DDImageView.init(frame: path.boundingBoxOfPath)
-        //cut(hole: path, inView: self.tracerImageView)
+        let imageView = DDImageView.init(frame: CGRect.init(origin: rect.origin, size: size))
         imageView.image = croppedImage
         imageView.isUserInteractionEnabled = true
         tracerView.superview?.addSubview(imageView)

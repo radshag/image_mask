@@ -14,7 +14,7 @@ extension UIImage {
         
         let r: CGRect = path.boundingBox // the rect to draw our image in (minimum rect that the path occupies).
         
-        UIGraphicsBeginImageContextWithOptions(self.size, _: false, _: self.scale) // begin image context, with transparency & the scale of the image.
+        UIGraphicsBeginImageContextWithOptions(r.size, _: false, _: self.scale) // begin image context, with transparency & the scale of the image.
         
         guard let ctx = UIGraphicsGetCurrentContext() else {
             return nil

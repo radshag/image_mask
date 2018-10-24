@@ -10,11 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tinytap/Extensions/UIImageViewExtension.swift"
-            timestampString = "562057219.788751"
+            timestampString = "562058078.548391"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "74"
-            endingLineNumber = "74">
+            endingLineNumber = "74"
+            landmarkName = "UIImage"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -24,11 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tinytap/Extensions/UIImageViewExtension.swift"
-            timestampString = "562057219.788888"
+            timestampString = "562058078.548467"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "74"
-            endingLineNumber = "74">
+            endingLineNumber = "74"
+            landmarkName = "UIImage"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -38,11 +42,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tinytap/Extensions/UIImageViewExtension.swift"
-            timestampString = "562057219.7889529"
+            timestampString = "562058078.548524"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "74"
-            endingLineNumber = "74">
+            endingLineNumber = "74"
+            landmarkName = "UIImage"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
