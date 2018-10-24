@@ -7,14 +7,64 @@
 //
 
 import UIKit
+import UIView_draggable
 
 class ViewController: UIViewController {
+    
 
+    @IBOutlet weak var tracerImageView: TracerImageView!
+    var tracerImageViewModel: TracerImageViewModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view, typically from a nib.        
+        tracerImageViewModel = TracerImageViewModel.init(tracerView: tracerImageView)
+        loadImage()
     }
+    
+    private func loadImage() {
+        guard UIImagePickerController.isSourceTypeAvailable(.photoLibrary) else {
+            print("can't open photo library")
+            return
+        }
+        
+        let imagePicker = UIImagePickerController()
+        
+        imagePicker.sourceType = .photoLibrary
+        imagePicker.delegate = self
+        
+        present(imagePicker, animated: true)
+    }
+    
+    func cut(hole: CGPath, inView v: UIView) {
+        
+        let s = CAShapeLayer()
+        s.path = hole
+        s.fillRule = CAShapeLayerFillRule.evenOdd
+        
+        v.layer.mask = s
+    }
+}
 
-
+extension ViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        defer {
+            picker.dismiss(animated: true)
+        }
+        
+        guard
+            let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage
+            else {
+                return
+        }
+        
+        self.tracerImageViewModel?.setImage(image: image)
+    }
+    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        defer {
+            picker.dismiss(animated: true)
+        }
+    }
 }
 

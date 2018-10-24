@@ -1,0 +1,6 @@
+framework module Pods_tinytap {
+  umbrella header "Pods-tinytap-umbrella.h"
+
+  export *
+  module * { export * }
+}
