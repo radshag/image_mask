@@ -7,83 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0466AE95833DF0DC6F707FD3DBEC83A3 /* DD+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D1F8C3E871FDCEBFF6643307C62FD0 /* DD+View.swift */; };
-		04C80EB30AC137AF2184A78665546F34 /* Pods-tinytap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB6B3334555685C8847ACD6A1E423B2 /* Pods-tinytap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05300F158017727587A6334ABD859761 /* DragDropUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C22F401B67C90DD8806B8E38C70F75C /* DragDropUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BF359B81893B956780363CBF0299FA9 /* DDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62117553FDD2FCFCF720C7ED55CBC69 /* DDTextField.swift */; };
-		14C2040C21E0AB0535029BCE62EB9011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		1A2EA241BF44B6A6D677EC25E7E41B57 /* DDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C81992ABDADE6F6471DE9395F4F3CF /* DDView.swift */; };
-		30D3F6F2451270340EBD6238E249B17E /* Pods-tinytap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD3C85628465AC2841A4024763052F0 /* Pods-tinytap-dummy.m */; };
-		4BF4AB19F82097FFA52D3896DB6B1EC1 /* DDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38095D3EC0A487E0CCA7D03D424D4C6D /* DDTableViewCell.swift */; };
-		557B3A0AEB7A77596ACDD9E3B3307FE7 /* DDProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D56EF22DDF839303AC3E961EF88DD /* DDProtocol.swift */; };
-		689751DE89988198213646E7F829F6BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7A607E675205070F2F9EAACE3D2D9BA6 /* DragDropUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C35209F58E4A0A67932855CFBEB4AF /* DragDropUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B89D70BB2190C34360925BB9FA6D620 /* DDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057CF1B6D0EDD19F82E3F488AADA7C6D /* DDButton.swift */; };
-		B31C56BCE23005CAE9FBF620797EE15C /* DDImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACDCA173E297C6B2B1C8E2A7075ADE9 /* DDImageView.swift */; };
-		B502D8A3B71CAC3BEA44CCF7A0E5A9D7 /* DDLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEF4CB1DDF3004C9C71368021C379BB /* DDLabel.swift */; };
-		C3C2DBD96F1957AA0F777BAF5B481394 /* DragDropUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C013808BD159D04718329CDACA17D8 /* DragDropUI-dummy.m */; };
-		D755983F2C5384A7EE92BB808BA158B3 /* DDGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA39812BBB1BFAD043C71F068F7611E0 /* DDGestureRecognizer.swift */; };
-		E43F447F4534667105D436A89E6FDB30 /* DDCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846621BBF984DD6789ACD3EEC404E33 /* DDCollectionViewCell.swift */; };
+		29620987269504CD85BE46E2D28A848A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3EF1BF635AC732431C4979FE1F16E75D /* Pods-tinytap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB6B3334555685C8847ACD6A1E423B2 /* Pods-tinytap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EE2686850B91CB53C9E55B62BE61738 /* UIView+draggable.m in Sources */ = {isa = PBXBuildFile; fileRef = 655329C5F12710DBCEC2B90702027A67 /* UIView+draggable.m */; };
+		8DE34B0BD7097AFA12617001DABFA8FC /* UIView+draggable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEB2EEC60DA89D18DA5D0235E98D9F6 /* UIView+draggable-dummy.m */; };
+		8F9369F9693DC00A47087D7DDCAF8555 /* Pods-tinytap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD3C85628465AC2841A4024763052F0 /* Pods-tinytap-dummy.m */; };
+		AFF4CE6B078A4DACCBA59C2CC0FF7A51 /* UIView+draggable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 246BE3F9310CC21485D52D114970C0FD /* UIView+draggable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1756A46DB092EDD474C5A4E3CB5CAEF /* UIView+draggable.h in Headers */ = {isa = PBXBuildFile; fileRef = E76AD921734E4F00F57C2862B1E6FEDC /* UIView+draggable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6E8AA0DF756C19F6939069F1AF90733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1288064066458CCF6AF40863D8DABFCD /* PBXContainerItemProxy */ = {
+		E5DA437A996069FEFB40BE0AAF9D5290 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 43C49359AE8F43AB405F301C0884E15B;
-			remoteInfo = DragDropUI;
+			remoteGlobalIDString = E7A22EB6F01B4684480FB7B9C3C2407F;
+			remoteInfo = "UIView+draggable";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		057CF1B6D0EDD19F82E3F488AADA7C6D /* DDButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDButton.swift; path = DragDropUI/DDButton.swift; sourceTree = "<group>"; };
 		0CBA32484292C9767C96C66985D2A5BE /* Pods-tinytap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tinytap.modulemap"; sourceTree = "<group>"; };
-		194241B077163D7596DABE56487D3C31 /* DragDropUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DragDropUI.framework; path = DragDropUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		228CEE9267209B5BEB5057D10BDDA902 /* Pods-tinytap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tinytap-acknowledgements.plist"; sourceTree = "<group>"; };
-		2ACDCA173E297C6B2B1C8E2A7075ADE9 /* DDImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDImageView.swift; path = DragDropUI/DDImageView.swift; sourceTree = "<group>"; };
-		33A934F02E718117D576D887BF2222FD /* Pods_tinytap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_tinytap.framework; path = "Pods-tinytap.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		34C35209F58E4A0A67932855CFBEB4AF /* DragDropUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DragDropUI.h; path = DragDropUI/DragDropUI.h; sourceTree = "<group>"; };
-		38095D3EC0A487E0CCA7D03D424D4C6D /* DDTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDTableViewCell.swift; path = DragDropUI/DDTableViewCell.swift; sourceTree = "<group>"; };
-		46C81992ABDADE6F6471DE9395F4F3CF /* DDView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDView.swift; path = DragDropUI/DDView.swift; sourceTree = "<group>"; };
+		246BE3F9310CC21485D52D114970C0FD /* UIView+draggable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+draggable-umbrella.h"; sourceTree = "<group>"; };
+		3724617610FB8597E2A246E49DBCF87D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		582F8F93C49B6489900CD3B0812D35A6 /* UIView+draggable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIView+draggable.xcconfig"; sourceTree = "<group>"; };
 		64F6234780FB8A65BFE8FBB559792287 /* Pods-tinytap-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tinytap-acknowledgements.markdown"; sourceTree = "<group>"; };
+		655329C5F12710DBCEC2B90702027A67 /* UIView+draggable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+draggable.m"; path = "Source/UIView+draggable.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6BC5FEE539511E5C4CD519EE553F51CD /* Pods-tinytap-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tinytap-resources.sh"; sourceTree = "<group>"; };
-		7C22F401B67C90DD8806B8E38C70F75C /* DragDropUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragDropUI-umbrella.h"; sourceTree = "<group>"; };
+		70965CA4DE9D5803390E02296AC2C630 /* UIView+draggable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+draggable-prefix.pch"; sourceTree = "<group>"; };
+		7469EE47385E83539871A8D4F09DDCA0 /* UIView_draggable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIView_draggable.framework; path = "UIView+draggable.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED5CC52F0CEB4D84322404885487D15 /* Pods-tinytap-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tinytap-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93D0234287EB7CE6E74D96FFE30A0868 /* DragDropUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragDropUI-prefix.pch"; sourceTree = "<group>"; };
-		9846621BBF984DD6789ACD3EEC404E33 /* DDCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDCollectionViewCell.swift; path = DragDropUI/DDCollectionViewCell.swift; sourceTree = "<group>"; };
-		A5C013808BD159D04718329CDACA17D8 /* DragDropUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DragDropUI-dummy.m"; sourceTree = "<group>"; };
-		A83B70931B0FDA4EA1DB12775594E8EB /* DragDropUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DragDropUI.modulemap; sourceTree = "<group>"; };
+		BBEB2EEC60DA89D18DA5D0235E98D9F6 /* UIView+draggable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+draggable-dummy.m"; sourceTree = "<group>"; };
 		C2C7915EDDE2C5373B9D78D9DB79960E /* Pods-tinytap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinytap.release.xcconfig"; sourceTree = "<group>"; };
-		C6D1F8C3E871FDCEBFF6643307C62FD0 /* DD+View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DD+View.swift"; path = "DragDropUI/DD+View.swift"; sourceTree = "<group>"; };
+		CDFC350B245DB39245870D491C5ABCCF /* UIView+draggable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "UIView+draggable.modulemap"; sourceTree = "<group>"; };
 		CFB6B3334555685C8847ACD6A1E423B2 /* Pods-tinytap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tinytap-umbrella.h"; sourceTree = "<group>"; };
-		DA39812BBB1BFAD043C71F068F7611E0 /* DDGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDGestureRecognizer.swift; path = DragDropUI/DDGestureRecognizer.swift; sourceTree = "<group>"; };
 		DDD3C85628465AC2841A4024763052F0 /* Pods-tinytap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tinytap-dummy.m"; sourceTree = "<group>"; };
-		DF2D56EF22DDF839303AC3E961EF88DD /* DDProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDProtocol.swift; path = DragDropUI/DDProtocol.swift; sourceTree = "<group>"; };
 		E514785410522242D47D1D4224AEF65E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E51A1AFB600541DBAF4311B0C7C73922 /* DragDropUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragDropUI.xcconfig; sourceTree = "<group>"; };
-		E62117553FDD2FCFCF720C7ED55CBC69 /* DDTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDTextField.swift; path = DragDropUI/DDTextField.swift; sourceTree = "<group>"; };
+		E76AD921734E4F00F57C2862B1E6FEDC /* UIView+draggable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+draggable.h"; path = "Source/UIView+draggable.h"; sourceTree = "<group>"; };
+		EEA7755E89B438FDBA687305A21C760F /* Pods_tinytap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_tinytap.framework; path = "Pods-tinytap.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DBD2A612A5E5A72DEBB2A264529CAE /* Pods-tinytap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinytap.debug.xcconfig"; sourceTree = "<group>"; };
-		FD2D39C4EB0D914655421D92D394B0D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDEF4CB1DDF3004C9C71368021C379BB /* DDLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDLabel.swift; path = DragDropUI/DDLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1F075A57C43B14990B9FD21721DAE703 /* Frameworks */ = {
+		18992853AAAFF5312E35E0486E451A96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14C2040C21E0AB0535029BCE62EB9011 /* Foundation.framework in Frameworks */,
+				F6E8AA0DF756C19F6939069F1AF90733 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		783BE5656791CB21A84BD7CBE0340875 /* Frameworks */ = {
+		A81289D8AA89CE52A6E37C8F19A6F8E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				689751DE89988198213646E7F829F6BE /* Foundation.framework in Frameworks */,
+				29620987269504CD85BE46E2D28A848A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,27 +80,38 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		34FE0D95C2F8079F9E47A405EAB11B7B /* Products */ = {
+		45E8C2DE6CE6B163617123CBD4CCA8F4 /* UIView+draggable */ = {
 			isa = PBXGroup;
 			children = (
-				194241B077163D7596DABE56487D3C31 /* DragDropUI.framework */,
-				33A934F02E718117D576D887BF2222FD /* Pods_tinytap.framework */,
+				E76AD921734E4F00F57C2862B1E6FEDC /* UIView+draggable.h */,
+				655329C5F12710DBCEC2B90702027A67 /* UIView+draggable.m */,
+				734811F32D05F8019161613E5001A768 /* Support Files */,
+			);
+			name = "UIView+draggable";
+			path = "UIView+draggable";
+			sourceTree = "<group>";
+		};
+		53A0FA4432D2534E944C480E8F3994E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEA7755E89B438FDBA687305A21C760F /* Pods_tinytap.framework */,
+				7469EE47385E83539871A8D4F09DDCA0 /* UIView_draggable.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5AC561236694E82CAAF18A65C92E8699 /* Support Files */ = {
+		734811F32D05F8019161613E5001A768 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A83B70931B0FDA4EA1DB12775594E8EB /* DragDropUI.modulemap */,
-				E51A1AFB600541DBAF4311B0C7C73922 /* DragDropUI.xcconfig */,
-				A5C013808BD159D04718329CDACA17D8 /* DragDropUI-dummy.m */,
-				93D0234287EB7CE6E74D96FFE30A0868 /* DragDropUI-prefix.pch */,
-				7C22F401B67C90DD8806B8E38C70F75C /* DragDropUI-umbrella.h */,
-				FD2D39C4EB0D914655421D92D394B0D1 /* Info.plist */,
+				3724617610FB8597E2A246E49DBCF87D /* Info.plist */,
+				CDFC350B245DB39245870D491C5ABCCF /* UIView+draggable.modulemap */,
+				582F8F93C49B6489900CD3B0812D35A6 /* UIView+draggable.xcconfig */,
+				BBEB2EEC60DA89D18DA5D0235E98D9F6 /* UIView+draggable-dummy.m */,
+				70965CA4DE9D5803390E02296AC2C630 /* UIView+draggable-prefix.pch */,
+				246BE3F9310CC21485D52D114970C0FD /* UIView+draggable-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/DragDropUI";
+			path = "../Target Support Files/UIView+draggable";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -126,10 +119,18 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C4132A7D1167C4D15D95EAB73BE10216 /* Pods */,
-				34FE0D95C2F8079F9E47A405EAB11B7B /* Products */,
+				9F301DDDC2E0999CE55C1E7CA864E488 /* Pods */,
+				53A0FA4432D2534E944C480E8F3994E6 /* Products */,
 				1EC2AE8755213D64E45227378E45A521 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		9F301DDDC2E0999CE55C1E7CA864E488 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45E8C2DE6CE6B163617123CBD4CCA8F4 /* UIView+draggable */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -158,14 +159,6 @@
 			path = "Target Support Files/Pods-tinytap";
 			sourceTree = "<group>";
 		};
-		C4132A7D1167C4D15D95EAB73BE10216 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D38EB4299C76211C0A1A2750FB45D8E3 /* DragDropUI */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,82 +167,62 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D38EB4299C76211C0A1A2750FB45D8E3 /* DragDropUI */ = {
-			isa = PBXGroup;
-			children = (
-				C6D1F8C3E871FDCEBFF6643307C62FD0 /* DD+View.swift */,
-				057CF1B6D0EDD19F82E3F488AADA7C6D /* DDButton.swift */,
-				9846621BBF984DD6789ACD3EEC404E33 /* DDCollectionViewCell.swift */,
-				DA39812BBB1BFAD043C71F068F7611E0 /* DDGestureRecognizer.swift */,
-				2ACDCA173E297C6B2B1C8E2A7075ADE9 /* DDImageView.swift */,
-				FDEF4CB1DDF3004C9C71368021C379BB /* DDLabel.swift */,
-				DF2D56EF22DDF839303AC3E961EF88DD /* DDProtocol.swift */,
-				38095D3EC0A487E0CCA7D03D424D4C6D /* DDTableViewCell.swift */,
-				E62117553FDD2FCFCF720C7ED55CBC69 /* DDTextField.swift */,
-				46C81992ABDADE6F6471DE9395F4F3CF /* DDView.swift */,
-				34C35209F58E4A0A67932855CFBEB4AF /* DragDropUI.h */,
-				5AC561236694E82CAAF18A65C92E8699 /* Support Files */,
-			);
-			name = DragDropUI;
-			path = DragDropUI;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		605B3F8459390880E165B8D51BFA6A32 /* Headers */ = {
+		8675592D5C6F33D2A3FD307D06A60C07 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05300F158017727587A6334ABD859761 /* DragDropUI-umbrella.h in Headers */,
-				7A607E675205070F2F9EAACE3D2D9BA6 /* DragDropUI.h in Headers */,
+				3EF1BF635AC732431C4979FE1F16E75D /* Pods-tinytap-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD633F9B5929B915F7B19F1202D8AF8D /* Headers */ = {
+		AB5ACBE35DA7F330E4EEDBE98312B44D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C80EB30AC137AF2184A78665546F34 /* Pods-tinytap-umbrella.h in Headers */,
+				AFF4CE6B078A4DACCBA59C2CC0FF7A51 /* UIView+draggable-umbrella.h in Headers */,
+				F1756A46DB092EDD474C5A4E3CB5CAEF /* UIView+draggable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		43C49359AE8F43AB405F301C0884E15B /* DragDropUI */ = {
+		073EA9628ABA281DCBCD9845FA319D22 /* Pods-tinytap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4DCFDC1463FE12A34E213D90BD4D080 /* Build configuration list for PBXNativeTarget "DragDropUI" */;
+			buildConfigurationList = 0C26BD919BDD9FAF1EA08919523FC827 /* Build configuration list for PBXNativeTarget "Pods-tinytap" */;
 			buildPhases = (
-				44511B7A4B7D54BF5D4DB2040A5AFA5B /* Sources */,
-				1F075A57C43B14990B9FD21721DAE703 /* Frameworks */,
-				605B3F8459390880E165B8D51BFA6A32 /* Headers */,
+				A136B84C7142E3FAD285BC36EB18F759 /* Sources */,
+				18992853AAAFF5312E35E0486E451A96 /* Frameworks */,
+				8675592D5C6F33D2A3FD307D06A60C07 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = DragDropUI;
-			productName = DragDropUI;
-			productReference = 194241B077163D7596DABE56487D3C31 /* DragDropUI.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C7CEDDF581693B9E3C3439174ED37ED7 /* Pods-tinytap */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A9D777E94593EF55CEE3E9C88F82E0D7 /* Build configuration list for PBXNativeTarget "Pods-tinytap" */;
-			buildPhases = (
-				4A8E4153BA5CAC704228E75FEE0724E8 /* Sources */,
-				783BE5656791CB21A84BD7CBE0340875 /* Frameworks */,
-				CD633F9B5929B915F7B19F1202D8AF8D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0CAE03247C6FF8288F3ED1DBAAEF5BBE /* PBXTargetDependency */,
+				856E120FDF8D1D7EEB2A467A43AA77C9 /* PBXTargetDependency */,
 			);
 			name = "Pods-tinytap";
 			productName = "Pods-tinytap";
-			productReference = 33A934F02E718117D576D887BF2222FD /* Pods_tinytap.framework */;
+			productReference = EEA7755E89B438FDBA687305A21C760F /* Pods_tinytap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7A22EB6F01B4684480FB7B9C3C2407F /* UIView+draggable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BF78887024A84B9358D4D11A738F34 /* Build configuration list for PBXNativeTarget "UIView+draggable" */;
+			buildPhases = (
+				D6086FA2BE4720DD3207CBC1645B0938 /* Sources */,
+				A81289D8AA89CE52A6E37C8F19A6F8E1 /* Frameworks */,
+				AB5ACBE35DA7F330E4EEDBE98312B44D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIView+draggable";
+			productName = "UIView+draggable";
+			productReference = 7469EE47385E83539871A8D4F09DDCA0 /* UIView_draggable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -269,91 +242,47 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 34FE0D95C2F8079F9E47A405EAB11B7B /* Products */;
+			productRefGroup = 53A0FA4432D2534E944C480E8F3994E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43C49359AE8F43AB405F301C0884E15B /* DragDropUI */,
-				C7CEDDF581693B9E3C3439174ED37ED7 /* Pods-tinytap */,
+				073EA9628ABA281DCBCD9845FA319D22 /* Pods-tinytap */,
+				E7A22EB6F01B4684480FB7B9C3C2407F /* UIView+draggable */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		44511B7A4B7D54BF5D4DB2040A5AFA5B /* Sources */ = {
+		A136B84C7142E3FAD285BC36EB18F759 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0466AE95833DF0DC6F707FD3DBEC83A3 /* DD+View.swift in Sources */,
-				8B89D70BB2190C34360925BB9FA6D620 /* DDButton.swift in Sources */,
-				E43F447F4534667105D436A89E6FDB30 /* DDCollectionViewCell.swift in Sources */,
-				D755983F2C5384A7EE92BB808BA158B3 /* DDGestureRecognizer.swift in Sources */,
-				B31C56BCE23005CAE9FBF620797EE15C /* DDImageView.swift in Sources */,
-				B502D8A3B71CAC3BEA44CCF7A0E5A9D7 /* DDLabel.swift in Sources */,
-				557B3A0AEB7A77596ACDD9E3B3307FE7 /* DDProtocol.swift in Sources */,
-				4BF4AB19F82097FFA52D3896DB6B1EC1 /* DDTableViewCell.swift in Sources */,
-				0BF359B81893B956780363CBF0299FA9 /* DDTextField.swift in Sources */,
-				1A2EA241BF44B6A6D677EC25E7E41B57 /* DDView.swift in Sources */,
-				C3C2DBD96F1957AA0F777BAF5B481394 /* DragDropUI-dummy.m in Sources */,
+				8F9369F9693DC00A47087D7DDCAF8555 /* Pods-tinytap-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A8E4153BA5CAC704228E75FEE0724E8 /* Sources */ = {
+		D6086FA2BE4720DD3207CBC1645B0938 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D3F6F2451270340EBD6238E249B17E /* Pods-tinytap-dummy.m in Sources */,
+				8DE34B0BD7097AFA12617001DABFA8FC /* UIView+draggable-dummy.m in Sources */,
+				5EE2686850B91CB53C9E55B62BE61738 /* UIView+draggable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0CAE03247C6FF8288F3ED1DBAAEF5BBE /* PBXTargetDependency */ = {
+		856E120FDF8D1D7EEB2A467A43AA77C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DragDropUI;
-			target = 43C49359AE8F43AB405F301C0884E15B /* DragDropUI */;
-			targetProxy = 1288064066458CCF6AF40863D8DABFCD /* PBXContainerItemProxy */;
+			name = "UIView+draggable";
+			target = E7A22EB6F01B4684480FB7B9C3C2407F /* UIView+draggable */;
+			targetProxy = E5DA437A996069FEFB40BE0AAF9D5290 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		074B12FA7C291710146FC4C3BAB4CFCD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2C7915EDDE2C5373B9D78D9DB79960E /* Pods-tinytap.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-tinytap/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-tinytap/Pods-tinytap.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_tinytap;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		25FE65D92129AF283AC9673C1DB8A0BE /* Debug */ = {
+		52FF5497912156AB99F21727D4EEF5F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8DBD2A612A5E5A72DEBB2A264529CAE /* Pods-tinytap.debug.xcconfig */;
 			buildSettings = {
@@ -380,45 +309,11 @@
 				PRODUCT_NAME = Pods_tinytap;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		68D3EAE6D26DC5E740538C856326E102 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E51A1AFB600541DBAF4311B0C7C73922 /* DragDropUI.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DragDropUI/DragDropUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DragDropUI/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DragDropUI/DragDropUI.modulemap";
-				PRODUCT_NAME = DragDropUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		A20B0BDFC4838E55DCAD094ED2792393 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -475,6 +370,37 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A61907E50F39E7AED61526317BF179F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582F8F93C49B6489900CD3B0812D35A6 /* UIView+draggable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIView+draggable/UIView+draggable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIView+draggable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIView+draggable/UIView+draggable.modulemap";
+				PRODUCT_NAME = UIView_draggable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -541,9 +467,43 @@
 			};
 			name = Debug;
 		};
-		B9207D0BCD4813CE9B7910E206510CBF /* Debug */ = {
+		CD53947A303F3F2A4626BB318FE37D9E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E51A1AFB600541DBAF4311B0C7C73922 /* DragDropUI.xcconfig */;
+			baseConfigurationReference = C2C7915EDDE2C5373B9D78D9DB79960E /* Pods-tinytap.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tinytap/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tinytap/Pods-tinytap.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_tinytap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7EE6A96B57122543F4685ACBF2EF4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582F8F93C49B6489900CD3B0812D35A6 /* UIView+draggable.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -554,17 +514,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DragDropUI/DragDropUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DragDropUI/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/UIView+draggable/UIView+draggable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIView+draggable/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DragDropUI/DragDropUI.modulemap";
-				PRODUCT_NAME = DragDropUI;
+				MODULEMAP_FILE = "Target Support Files/UIView+draggable/UIView+draggable.modulemap";
+				PRODUCT_NAME = UIView_draggable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -575,29 +534,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04BF78887024A84B9358D4D11A738F34 /* Build configuration list for PBXNativeTarget "UIView+draggable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7EE6A96B57122543F4685ACBF2EF4DF /* Debug */,
+				A61907E50F39E7AED61526317BF179F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C26BD919BDD9FAF1EA08919523FC827 /* Build configuration list for PBXNativeTarget "Pods-tinytap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FF5497912156AB99F21727D4EEF5F3 /* Debug */,
+				CD53947A303F3F2A4626BB318FE37D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */,
 				A20B0BDFC4838E55DCAD094ED2792393 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A9D777E94593EF55CEE3E9C88F82E0D7 /* Build configuration list for PBXNativeTarget "Pods-tinytap" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				25FE65D92129AF283AC9673C1DB8A0BE /* Debug */,
-				074B12FA7C291710146FC4C3BAB4CFCD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E4DCFDC1463FE12A34E213D90BD4D080 /* Build configuration list for PBXNativeTarget "DragDropUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9207D0BCD4813CE9B7910E206510CBF /* Debug */,
-				68D3EAE6D26DC5E740538C856326E102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

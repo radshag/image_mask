@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UIView_draggable
 
 protocol TracerImageViewDelegate: class {
     func tracer(imageView: UIImageView, didTouchAt point: CGPoint)
@@ -54,5 +55,26 @@ class TracerImageView: UIImageView {
     override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesCancelled(touches, with: event)
         self.end(touches: touches)
+    }
+}
+
+protocol TracerImageDraggableContent {
+    
+}
+
+class TracerImageViewDraggableContent: UIImageView, TracerImageDraggableContent {
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        self.setup()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        self.setup()
+    }
+    
+    private func setup() {
+        self.isUserInteractionEnabled = true
+        self.enableDragging()
     }
 }

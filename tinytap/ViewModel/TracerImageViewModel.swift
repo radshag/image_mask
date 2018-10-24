@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import DragDropUI
 
 protocol TracerImageViewModeling {
     func setImage(image: UIImage)
@@ -90,7 +89,7 @@ extension TracerImageViewModel: TracerImageViewDelegate {
         let rect = path.boundingBox
         let size = croppedImage.size
         createMask(with: bezierPath)
-        let imageView = DDImageView.init(frame: CGRect.init(origin: rect.origin, size: size))
+        let imageView = TracerImageViewDraggableContent.init(frame: CGRect.init(origin: rect.origin, size: size))
         imageView.image = croppedImage
         imageView.isUserInteractionEnabled = true
         tracerView.superview?.addSubview(imageView)
