@@ -23,7 +23,10 @@ class TracerImageView: UIImageView {
     }
     
     private func processTouches(touches: Set<UITouch>) {
-        guard let touch = touches.first else {
+        guard
+            let touch = touches.first,
+            let _ = self.image
+        else {
             return
         }
         
@@ -33,6 +36,11 @@ class TracerImageView: UIImageView {
     }
     
     private func end(touches: Set<UITouch>) {
+        guard
+            let _ = self.image
+            else {
+                return
+        }
         self.processTouches(touches: touches)
         self.tracerImageViewDelegate?.tracerImageViewTouchesEnded()
     }
@@ -62,7 +70,15 @@ protocol TracerImageDraggableContent {
     
 }
 
+
+protocol TracerImageViewDraggableContentDelegate: class {
+    func tracer(imageView: UIImageView, didLongPress gesture: UILongPressGestureRecognizer)
+}
+
 class TracerImageViewDraggableContent: UIImageView, TracerImageDraggableContent {
+    
+    public var delegate: TracerImageViewDraggableContentDelegate?
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.setup()
@@ -76,5 +92,12 @@ class TracerImageViewDraggableContent: UIImageView, TracerImageDraggableContent 
     private func setup() {
         self.isUserInteractionEnabled = true
         self.enableDragging()
+        
+        let gesture = UILongPressGestureRecognizer.init(target: self, action: #selector(TracerImageViewDraggableContent.handleLongPress(_:)))
+        self.addGestureRecognizer(gesture)
+    }
+    
+    @objc private func handleLongPress(_ gestureRecognizer: UILongPressGestureRecognizer) {
+        delegate?.tracer(imageView: self, didLongPress: gestureRecognizer)
     }
 }

@@ -10,14 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
     
-
+    @IBOutlet weak var addImageButon: UIButton!
+    
     @IBOutlet weak var tracerImageView: TracerImageView!
     var tracerImageViewModel: TracerImageViewModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        addImageButon.layer.cornerRadius = addImageButon.bounds.size.width / 2
         // Do any additional setup after loading the view, typically from a nib.        
-        tracerImageViewModel = TracerImageViewModel.init(tracerView: tracerImageView)
+        tracerImageViewModel = TracerImageViewModel.init(tracerView: tracerImageView, viewController: self)
+        loadImage()
+    }
+    
+    @IBAction func onAddImagePressed(_ sender: Any) {
         loadImage()
     }
     

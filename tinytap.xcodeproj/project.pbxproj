@@ -18,6 +18,7 @@
 		95E8CDF7217F7F1F00C4C164 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8CDF6217F7F1F00C4C164 /* UIImageViewExtension.swift */; };
 		95ECE0B9218021BF001D383B /* TracerImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ECE0B8218021BF001D383B /* TracerImageViewModel.swift */; };
 		95ECE0BB21802D20001D383B /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ECE0BA21802D20001D383B /* UIViewExtension.swift */; };
+		95ECE0BD21806F57001D383B /* PathImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ECE0BC21806F57001D383B /* PathImageModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		95E8CDF6217F7F1F00C4C164 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		95ECE0B8218021BF001D383B /* TracerImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracerImageViewModel.swift; sourceTree = "<group>"; };
 		95ECE0BA21802D20001D383B /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		95ECE0BC21806F57001D383B /* PathImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathImageModel.swift; sourceTree = "<group>"; };
 		9FEE3D5736FCCD6B68567F4E /* Pods-tinytap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinytap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tinytap/Pods-tinytap.debug.xcconfig"; sourceTree = "<group>"; };
 		DF90B1FF9E6B786F3AFD96CF /* Pods-tinytap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinytap.release.xcconfig"; path = "Pods/Target Support Files/Pods-tinytap/Pods-tinytap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				95E8CDF1217F506E00C4C164 /* PointCollection.swift */,
+				95ECE0BC21806F57001D383B /* PathImageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95ECE0BD21806F57001D383B /* PathImageModel.swift in Sources */,
 				95E8CDF7217F7F1F00C4C164 /* UIImageViewExtension.swift in Sources */,
 				95ECE0B9218021BF001D383B /* TracerImageViewModel.swift in Sources */,
 				95E8CDDB217F4DC300C4C164 /* ViewController.swift in Sources */,
@@ -420,7 +424,10 @@
 				DEVELOPMENT_TEAM = P6W9W2T532;
 				INFOPLIST_FILE = tinytap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dov.tinytap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -437,7 +444,10 @@
 				DEVELOPMENT_TEAM = P6W9W2T532;
 				INFOPLIST_FILE = tinytap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dov.tinytap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
